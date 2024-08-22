@@ -28,7 +28,6 @@ TP1 HTML:
         <li id="Estructura">
             <h3>Estructura Básica del Documento HTML</h3>
             <p  style="font-weight:normal; margin-left:-20px;">Este documento HTML tiene una estructura basica que incluye la declaracion de DOCTYPE, etiquetas de metadatos y un título</p>
-            
         </li><br>
         <li id="Encabezado">
             <h3>Encabezados y Propiedades del Texto</h3>
