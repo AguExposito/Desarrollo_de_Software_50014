@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>aguhtml</title>
+</head>
+<body>
+  <!--ej 7-1 -->
+  <p>Este es el primer párrafo.</p>
+  <p>Este es el segundo párrafo.</p>
+  <p>Este es el tercer párrafo.</p>
+  
+  <button onclick="cambiarColor()">Cambiar color de los párrafos</button>
+
+
+  <!--ej 7-2 -->
+  <form>
+    <label for="nombre">Ingresa tu nombre:</label>
+    <input type="text" id="nombre" name="nombre">
+    <button type="button" onclick="mostrarAlerta()">Mostrar Alerta</button>
+  </form>
+
+  <!--ej 8-1 -->
+  <ul></ul>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+    <li>Elemento 4</li>
+    <li>Elemento 5</li>
+  </ul>
+
+  <!--ej 8-2 -->
+  <input type="text" id="miInput" placeholder="Ingresa algo aquí...">
+  <button id="deshabilitarBtn">Deshabilitar</button>
+  <button id="habilitarBtn">Habilitar</button>
+
+  <!--ej 9 -->
+ <form id="formulario">
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" placeholder="Ingresa tu correo" required>
+    <button type="submit">Guardar</button>
+  </form>
+
+  <div id="resultado"></div>
+  <button id="eliminarBtn" style="display:none;">Eliminar Correo</button>
+
+  <script src="main.js"></script>
+</body>
+</html>
+
+
